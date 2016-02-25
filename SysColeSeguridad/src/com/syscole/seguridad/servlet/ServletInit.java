@@ -30,7 +30,6 @@ public class ServletInit extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/pages/index.html");
 		dispatcher.forward(request, response);
-//		response.sendRedirect("pages/index.html");
 	}
 
 	/**
